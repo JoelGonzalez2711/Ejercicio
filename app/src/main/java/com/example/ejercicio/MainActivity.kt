@@ -24,7 +24,6 @@ class MainActivity : ComponentActivity() {
             setContentView(R.layout.layout_principal)
 
             val boton:Button=findViewById(R.id.B_saludame)
-            saludo=findViewById(R.id.ET_nombre)
             introNombre=findViewById(R.id.ET_nombre)
             boton.setOnClickListener{saludar()}
         }
@@ -33,6 +32,12 @@ class MainActivity : ComponentActivity() {
     fun saludar(){
         setContent {
             setContentView(R.layout.layout_saludo)
+            saludo=findViewById(R.id.saludar_usuario)
+
+            val nombre=introNombre.text.toString()
+            val saludos=getString(R.string.saludo)
+            val mensaje="$saludos $nombre"
+            saludo.text=mensaje
 
         }
     }
