@@ -3,4 +3,6 @@
     <string name="hola_usuario">Hola Usuario</string>
     <string name="hint_nombre">Nombre</string>
     <string name="introducir_nombre">Introduce tu nombre</string>
+    <string name="button_text">Salúdame</string>
+    <string name="saludo">Hola </string>
 </resources>
