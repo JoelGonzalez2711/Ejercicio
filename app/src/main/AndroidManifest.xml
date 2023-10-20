@@ -23,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.ejercicio.saludo"
+            android:exported="false"
+            android:label="@string/title_activity_respuesta"
+            android:theme="@style/Theme.Ejercicio"/>
     </application>
 
 </manifest>

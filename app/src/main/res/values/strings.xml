@@ -4,5 +4,5 @@
     <string name="hint_nombre">Nombre</string>
     <string name="introducir_nombre">Introduce tu nombre</string>
     <string name="button_text">Salúdame</string>
-    <string name="saludo">Hola </string>
+    <string name="title_activity_respuesta">saludo</string>
 </resources>
